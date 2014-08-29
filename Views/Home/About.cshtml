@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "À propos de";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        30 ml de sel pour 1kg de patate
+    </p>
+
+    <p>
+        150 ml de crèmes
+    </p>
+
+    <p>
+        Un peu de noix de muscade au goût
+    </p>
+</article>
+
+<aside>
+    <h3>Patate pilé à la Johnny Bravo</h3>
+    <p>
+        Ajouter des protéines de cheval
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Frites", "Index", "Home")</li>
+        <li>@Html.ActionLink("Patates pilées", "About", "Home")</li>
+        <li>@Html.ActionLink("Patate au four", "Contact", "Home")</li>
+        <li>@Html.ActionLink("Achat","Achat","Home")</li>
+    </ul>
+</aside>

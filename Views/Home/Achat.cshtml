@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Achat";
+}
+
+<h2>@ViewBag.Message</h2>
+<section class=Achat>
+</section>
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.Label("Insérez du texte")
+        @Html.TextBox("txtTexte")<br />
+        <button name="Action" value="Send" type=submit>Frites</button> 
+    </div>
+}
